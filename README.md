@@ -1,12 +1,13 @@
 # SQLProject-
-// Run a query that creates a table named Authors that has the following columns: AuthorID, FullName, BirthCountry. 
+
+# Run a query that creates a table named Authors that has the following columns: AuthorID, FullName, BirthCountry. 
 
 CREATE TABLE Authors ( 
  AuthorID INT PRIMARY KEY AUTO_INCREMENT,
  FullName VARCGAR(50) NOT NULL, 
  BirthCountry VARCHAR (50) NOT NULL );
  
-// Run a query that creates a table named Books that has the following columns: BookID, Name, AuthorID.
+ # Run a query that creates a table named Books that has the following columns: BookID, Name, AuthorID.
 
 CREATE TABLE Books (
   BookID int primary key auto_increment,
